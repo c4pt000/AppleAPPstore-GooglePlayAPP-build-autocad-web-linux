@@ -20,7 +20,7 @@ ImageMagick , ImageMagick-devel, wine
 Once Nativefier is installed, run the following command:
 
 ```bash
- # npm -g install nativefier
+$ sudo npm -g install nativefier
 
 $ cd /opt
 
@@ -28,7 +28,7 @@ $ nativefier --name "autocadweb" "https://web.autocad.com" --user-agent "Mozilla
 
 $ sudo cp -rf autocadweb-linux-x64 /usr/bin/autocadweb
 
-# chmod +x /usr/bin/autocadweb/autocadweb
+$ sudo chmod +x /usr/bin/autocadweb/autocadweb
 
 $ autocadweb
 ```
