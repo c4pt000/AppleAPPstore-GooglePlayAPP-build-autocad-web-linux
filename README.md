@@ -2,7 +2,7 @@
 # apple app store + google play store cordova (requires nodejs + npm)
 
 
-# android requires android sdk + ndk
+# android requires android sdk + ndk on linux (on macos just Xcode)
 ```
 npm -g install cordova 
 npm -g install nativefier
@@ -12,6 +12,9 @@ cordova create myApp org.apache.cordova.myApp myApp
 cd myApp
 cordova platform add android
 cd platforms/android/www       #<--html+js here
+cd ../
+open myApp.xcodeproj
+
 ```
 
 
