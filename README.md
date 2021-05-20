@@ -1,7 +1,21 @@
 
-# apple app store cordova
+# apple app store + google play store cordova (requires nodejs + npm)
 
-# requires Xcode + $99 developer fee + working iphone
+
+# android requires android sdk + ndk
+```
+npm -g install cordova 
+npm -g install nativefier
+
+cd Desktop
+cordova create myApp org.apache.cordova.myApp myApp
+cd myApp
+cordova platform add android
+cd platforms/android/www       #<--html+js here
+```
+
+
+# iOS requires Xcode + $99 developer fee + working iphone
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
