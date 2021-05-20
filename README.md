@@ -1,5 +1,5 @@
 
-# apple app store + google play store cordova (requires nodejs + npm)
+# apple app store + google play store cordova (requires nodejs + npm + brew + Xcode)
 
 
 # android requires android sdk + ndk on linux (on macos just Xcode)
