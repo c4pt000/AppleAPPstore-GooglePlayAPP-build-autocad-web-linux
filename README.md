@@ -1,3 +1,30 @@
+
+# apple app store cordova
+
+# requires Xcode + $99 developer fee + working iphone
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+npm -g install cordova 
+npm -g install nativefier
+
+cd Desktop
+cordova create myApp org.apache.cordova.myApp myApp
+cd myApp
+cordova platform add ios
+cd platforms/ios/www       #<--html+js here
+cd ../
+open myApp.xcodeproj
+```
+
+# setup signing
+
+
+
+
+
+
 # AutoCAD Web for Linux
 AutoCAD Web desktop app for Linux
 
